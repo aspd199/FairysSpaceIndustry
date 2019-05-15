@@ -1,14 +1,14 @@
 {
 	"name": "FairysLibrary",
-	"version": "0.16.1",
+	"version": "0.17.0",
 	"title": "Fairy's Space Industry Library",
 	"author": "aspd199",
 	"contact": "admin@art8620.com",
 	"homepage": "https://mods.factorio.com/mods/aspd199",
 	"description": "Fairy's Space Industry Library",
-	"factorio_version":"0.16",
+	"factorio_version":"0.17",
 	"dependencies":
 	[
-		"base >= 0.16.0"
+		"base >= 0.17.0"
 	]
 }

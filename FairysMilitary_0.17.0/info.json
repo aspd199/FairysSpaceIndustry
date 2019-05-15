@@ -1,17 +1,17 @@
 {
 	"name": "FairysMilitary",
-	"version": "0.16.3",
+	"version": "0.17.0",
 	"title": "Fairy's Military",
 	"author": "aspd199",
 	"contact": "admin@art8620.com",
 	"homepage": "https://mods.factorio.com/mods/aspd199",
 	"description": "Fairy's Military",
-	"factorio_version":"0.16",
+	"factorio_version":"0.17",
 	"dependencies":
 	[
-		"FairysLibrary >= 0.16.1",
-        "bobassembly >= 0.16.1",
-        "bobvehicleequipment = 0.16.2",
-        "bobwarfare >= 0.16.5"
+		"FairysLibrary >= 0.17.0",
+        "bobassembly >= 0.17.0",
+        "bobvehicleequipment = 0.17.0",
+        "bobwarfare >= 0.17.0"
 	]
 }

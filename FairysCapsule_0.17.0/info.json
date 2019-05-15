@@ -1,19 +1,19 @@
 {
 	"name": "FairysCapsule",
-	"version": "0.16.0",
+	"version": "0.17.0",
 	"title": "Fairy's Capsule",
 	"author": "aspd199",
 	"contact": "admin@art8620.com",
 	"homepage": "https://mods.factorio.com/mods/aspd199",
 	"description": "Fairy's Capsule",
-	"factorio_version":"0.16",
+	"factorio_version":"0.17",
 	"dependencies":
 	[
-		"FairysLibrary >= 0.16.0",
+		"FairysLibrary >= 0.17.0",
         "angelsbioprocessing >= 0.5.4",
         "angelspetrochem >= 0.7.6",
         "angelsrefining >= 0.9.9",
         "angelssmelting >= 0.4.3",
-		"bobplates >= 0.16.2"
+		"bobplates >= 0.17.0"
 	]
 }
