@@ -6,7 +6,6 @@ data:extend(
     name = "fairy-"..n.."-capsule",
     icon = "__FairysCapsule__/graphics/icons/fairy-"..n.."-capsule.png",
     icon_size = 32,
-    flags = {"goes-to-main-inventory"},
     subgroup = "fairy-capsule",
     order = o.."[fairy-"..n.."-capsule]",
     stack_size = 500

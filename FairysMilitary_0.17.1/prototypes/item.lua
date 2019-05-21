@@ -70,7 +70,7 @@ data:extend(
     name = "fairy-railgun",
     icon = "__base__/graphics/icons/railgun.png",
     icon_size = 32,
-    flags = {"goes-to-main-inventory", "hidden"},
+    flags = {"hidden"},
     subgroup = "gun",
     order = "g[fairy-railgun]",
     attack_parameters =
@@ -96,7 +96,7 @@ data:extend(
     name = "fairy-railgun-dart",
     icon = "__base__/graphics/icons/railgun-ammo.png",
     icon_size = 32,
-    flags = {"goes-to-main-inventory", "hidden"},
+    flags = {"hidden"},
     ammo_type =
     {
       category = "fairy-railgun",
@@ -133,7 +133,7 @@ data:extend(
     name = "fairy-cannon",
     icon = "__base__/graphics/icons/tank-cannon.png",
     icon_size = 32,
-    flags = {"goes-to-main-inventory", "hidden"},
+    flags = {"hidden"},
     subgroup = "gun",
     order = "f[fairy-cannon]",
     attack_parameters =
@@ -160,7 +160,6 @@ data:extend(
     name = "fairy-cannon-shell",
     icon = "__base__/graphics/icons/cannon-shell.png",
     icon_size = 32,
-    flags = {"goes-to-main-inventory"},
     ammo_type =
     {
       category = "fairy-cannon-shell",
@@ -193,7 +192,7 @@ data:extend(
     name = "fairy-flamethrower",
     icon = "__base__/graphics/icons/flamethrower.png",
     icon_size = 32,
-    flags = {"goes-to-main-inventory", "hidden"},
+    flags = {"hidden"},
     subgroup = "gun",
     order = "e[fairy-flamethrower]",
     attack_parameters =
@@ -238,7 +237,6 @@ data:extend(
     name = "fairy-flamethrower-ammo",
     icon = "__base__/graphics/icons/flamethrower-ammo.png",
     icon_size = 32,
-    flags = {"goes-to-main-inventory"},
     ammo_type =
     {
       {
@@ -271,7 +269,7 @@ data:extend(
     name = "fairy-machine-gun",
     icon = "__base__/graphics/icons/submachine-gun.png",
     icon_size = 32,
-    flags = {"goes-to-main-inventory", "hidden"},
+    flags = {"hidden"},
     subgroup = "gun",
     order = "d[fairy-machine-gun]",
     attack_parameters =
@@ -304,7 +302,6 @@ data:extend(
     name = "fairy-machine-magazine",
     icon = "__base__/graphics/icons/firearm-magazine.png",
     icon_size = 32,
-    flags = {"goes-to-main-inventory"},
     ammo_type =
     {
       category = "fairy-bullet",
