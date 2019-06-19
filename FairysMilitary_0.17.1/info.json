@@ -9,9 +9,6 @@
 	"factorio_version":"0.17",
 	"dependencies":
 	[
-		"FairysLibrary >= 0.17.0",
-        "bobassembly >= 0.17.0",
-        "bobvehicleequipment = 0.17.0",
-        "bobwarfare >= 0.17.0"
+		"FairysLibrary >= 0.17.0"
 	]
 }

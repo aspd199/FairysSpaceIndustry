@@ -1,6 +1,6 @@
 {
 	"name": "FairysLogistics",
-	"version": "0.17.0",
+	"version": "0.17.1",
 	"title": "Fairy's Logistics",
 	"author": "aspd199",
 	"contact": "admin@art8620.com",
@@ -9,7 +9,6 @@
 	"factorio_version":"0.17",
 	"dependencies":
 	[
-		"FairysLibrary >= 0.17.0",
-        "boblogistics >= 0.17.0"
+		"FairysLibrary >= 0.17.0"
 	]
 }

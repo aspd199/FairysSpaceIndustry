@@ -1,6 +1,6 @@
 {
 	"name": "FairysSpaceIndustry",
-	"version": "0.17.0",
+	"version": "0.17.1",
 	"title": "Fairy's Space Industry",
 	"author": "aspd199",
 	"contact": "admin@art8620.com",
@@ -9,8 +9,6 @@
 	"factorio_version":"0.17",
 	"dependencies":
 	[
-		"FairysLibrary >= 0.17.0",
-        "bobelectronics >= 0.17.0",
-        "bobpower >= 0.17.0"
+		"FairysLibrary >= 0.17.0"
 	]
 }

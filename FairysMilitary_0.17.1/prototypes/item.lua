@@ -5,7 +5,6 @@ data:extend(
     name = "fairy-gun-turret",
     icon = "__FairysMilitary__/graphics/icons/fairy-gun-turret.png",
     icon_size = 32,
-    flags = {"goes-to-quickbar"},
     subgroup = "fairy-ship",
     order = "d[fairy-gun-turret]",
     place_result = "fairy-gun-turret",
@@ -16,7 +15,6 @@ data:extend(
     name = "fairy-anti-gravity-engine",
     icon = "__FairysMilitary__/graphics/icons/fairy-anti-gravity-engine.png",
     icon_size = 32,
-    flags = {"goes-to-main-inventory"},
     subgroup = "fairy-ship",
     order = "a[fairy-anti-gravity-engine]",
     stack_size = 100
@@ -26,7 +24,6 @@ data:extend(
     name = "fairy-cruiser",
     icon = "__FairysMilitary__/graphics/icons/fairy-cruiser.png",
     icon_size = 32,
-    flags = {"goes-to-quickbar"},
     subgroup = "fairy-ship",
     order = "b[fairy-cruiser]",
     place_result = "fairy-cruiser",
@@ -37,7 +34,6 @@ data:extend(
     name = "fairy-crawler",
     icon = "__FairysMilitary__/graphics/icons/fairy-crawler.png",
     icon_size = 32,
-    flags = {"goes-to-quickbar"},
     subgroup = "fairy-ship",
     order = "c[fairy-crawler]",
     place_result = "fairy-crawler",
@@ -48,7 +44,6 @@ data:extend(
     name = "fairy-holy-shadow",
     icon = "__FairysMilitary__/graphics/icons/fairy-holy-shadow.png",
     icon_size = 32,
-    flags = {"goes-to-quickbar"},
     subgroup = "fairy-ship",
     order = "d[fairy-holy-shadow]",
     place_result = "fairy-holy-shadow",
@@ -59,7 +54,6 @@ data:extend(
     name = "fairy-frigate",
     icon = "__FairysMilitary__/graphics/icons/fairy-frigate.png",
     icon_size = 32,
-    flags = {"goes-to-quickbar"},
     subgroup = "fairy-ship",
     order = "e[fairy-frigate]",
     place_result = "fairy-frigate",
@@ -133,7 +127,7 @@ data:extend(
     name = "fairy-cannon",
     icon = "__base__/graphics/icons/tank-cannon.png",
     icon_size = 32,
-    flags = {"hidden"},
+    flags = {"goes-to-main-inventory", "hidden"},
     subgroup = "gun",
     order = "f[fairy-cannon]",
     attack_parameters =
@@ -160,6 +154,7 @@ data:extend(
     name = "fairy-cannon-shell",
     icon = "__base__/graphics/icons/cannon-shell.png",
     icon_size = 32,
+    flags = {"goes-to-main-inventory"},
     ammo_type =
     {
       category = "fairy-cannon-shell",
@@ -192,7 +187,7 @@ data:extend(
     name = "fairy-flamethrower",
     icon = "__base__/graphics/icons/flamethrower.png",
     icon_size = 32,
-    flags = {"hidden"},
+    flags = {"goes-to-main-inventory", "hidden"},
     subgroup = "gun",
     order = "e[fairy-flamethrower]",
     attack_parameters =
@@ -237,6 +232,7 @@ data:extend(
     name = "fairy-flamethrower-ammo",
     icon = "__base__/graphics/icons/flamethrower-ammo.png",
     icon_size = 32,
+    flags = {"goes-to-main-inventory"},
     ammo_type =
     {
       {
@@ -269,7 +265,7 @@ data:extend(
     name = "fairy-machine-gun",
     icon = "__base__/graphics/icons/submachine-gun.png",
     icon_size = 32,
-    flags = {"hidden"},
+    flags = {"goes-to-main-inventory", "hidden"},
     subgroup = "gun",
     order = "d[fairy-machine-gun]",
     attack_parameters =
@@ -302,6 +298,7 @@ data:extend(
     name = "fairy-machine-magazine",
     icon = "__base__/graphics/icons/firearm-magazine.png",
     icon_size = 32,
+    flags = {"goes-to-main-inventory"},
     ammo_type =
     {
       category = "fairy-bullet",

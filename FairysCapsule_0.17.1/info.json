@@ -10,10 +10,10 @@
 	"dependencies":
 	[
 		"FairysLibrary >= 0.17.0",
-        "angelsbioprocessing >= 0.5.4",
-        "angelspetrochem >= 0.7.6",
-        "angelsrefining >= 0.9.9",
-        "angelssmelting >= 0.4.3",
-		"bobplates >= 0.17.0"
+        "? angelsbioprocessing >= 0.5.4",
+        "? angelspetrochem >= 0.7.6",
+        "? angelsrefining >= 0.9.9",
+        "? angelssmelting >= 0.4.3",
+        "? bobplates >= 0.17.0"
 	]
 }

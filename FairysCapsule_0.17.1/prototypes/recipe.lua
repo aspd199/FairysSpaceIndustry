@@ -37,6 +37,7 @@ data:extend(
 }
 )
 end
+
 capsulerecipe("oxygen", "a", "__bobplates__/graphics/icons/oxygen.png")
 capsulerecipe("water-purified", "b", "__angelsrefining__/graphics/icons/water-purified.png")
 capsulerecipe("sulfuric-acid", "c", "__base__/graphics/icons/fluid/sulfuric-acid.png")

@@ -7,10 +7,10 @@ data:extend(
     energy_required = 15,
     ingredients =
     {
-      {"solar-panel-large-3", 1},
-      {"processing-unit", 5},
-      {"titanium-plate", 20},
-      {"silicon-wafer", 40}
+      {"solar-panel", 1},
+      {"electronic-circuit", 5},
+      {"steel-plate", 20},
+      {"copper-plate", 40}
     },
     result = "fairy-solar-panel"
   },
@@ -21,11 +21,11 @@ data:extend(
     energy_required = 15,
     ingredients =
     {
-      {"electric-chemical-mixing-furnace-2", 1},
-      {"tungsten-carbide", 100},
-      {"advanced-processing-unit", 20}, 
-      {"copper-tungsten-alloy", 50},
-      {"tungsten-pipe", 20}
+      {"electric-furnace", 1},
+      {"low-density-structure", 100},
+      {"advanced-circuit", 20}, 
+      {"steel-plate", 50},
+      {"pipe", 20}
     },
     result = "fairy-electric-furnace"
   }

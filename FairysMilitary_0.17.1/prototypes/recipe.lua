@@ -21,10 +21,10 @@ data:extend(
     energy_required = 30,
     ingredients =
     {
-      {"copper-tungsten-alloy", 100},
-      {"advanced-processing-unit", 20},
-      {"silver-zinc-battery", 100},
-      {"angels-plate-titanium", 200}
+      {"steel-plate", 100},
+      {"electronic-circuit", 20},
+      {"battery", 100},
+      {"copper-cable", 200}
     },
     result = "fairy-anti-gravity-engine"
   },
@@ -36,10 +36,10 @@ data:extend(
     ingredients =
     {
       {"fairy-anti-gravity-engine", 100},
-      {"copper-tungsten-alloy", 10000},
-      {"titanium-plate", 20000},
+      {"steel-plate", 10000},
+      {"iron-plate", 20000},
       {"low-density-structure", 5000},
-      {"radar-4", 20},
+      {"radar", 20},
       {"electric-engine-unit", 1000}
     },
     result = "fairy-cruiser"
@@ -51,8 +51,8 @@ data:extend(
     energy_required = 5,
     ingredients =
     {
-      {"copper-tungsten-alloy", 5},
-      {"silver-zinc-battery", 5}
+      {"steel-plate", 5},
+      {"battery", 5}
     },
     result = "fairy-railgun-dart"
   },
@@ -133,10 +133,10 @@ data:extend(
     ingredients =
     {
       {"fairy-anti-gravity-engine", 50},
-      {"copper-tungsten-alloy", 5000},
-      {"titanium-plate", 10000},
+      {"steel-plate", 5000},
+      {"iron-plate", 10000},
       {"low-density-structure", 2500},
-      {"radar-4", 10},
+      {"radar", 10},
       {"electric-engine-unit", 500}
     },
     result = "fairy-frigate"
